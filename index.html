@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Cheatsheet</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#main">Was ist Git?</a></li>
+                <li><a href="#command">Befehle</a></li>
+                <li><a href="#shorts">Abkürzungen</a></li>
+                <li><a href="#terminal">Terminal</a></li>
+            </ul>
+        </nav>
+        <div id="headline">
+            <h1>GITHUB</h1>
+            <h1>CHEATSHEET</h1>
+        </div>
+    </header>
+    <main id="main">
+        <h2>Was ist Git ?</h2>
+        <div>
+            <p>Git und Github sind nicht das gleiche! Git ist ein VSC-Tool und GitHub ist eine Plattform die Git benutzt, es gibt auch andere zb. GitLab, GitBucket, BitBucket, Sourceforge und so weiter.
+            </p>
+        </div>
+        <p>Git wird überall benutzt und ist eins der wichtigsten Tools für Entwickler geworden. Dadurch können Entwickler von überall zusammenarbeiten.</p>
+        <p>Git ist ein Versionverwaltungstool, das bei jedem comitten eine Art Schnappschuss von deinem Projekt macht. Hinterher hat man einen Stapel von Schnappschüssen.
+        </p>
+        <div>
+            <img src="assets/img/git init.png" alt="git init">
+            <p>Staged Area = Index → Daten werden für den commit vorgemerkt sind aber noch nicht hochgeladen</p>
+        </div>
+        <div>
+            <img src="assets/img/git-change.png" alt="git change">
+            <p>Lokal = Working Directory → Änderungen werden als Modified dargestellt</p>
+        </div>
+        <div>
+            <img src="assets/img/repository.png" alt="repository">
+            <p>.git directory repository → Daten sind von lokal auf git geklont worden und stehen als snapshot bereit</p>
+        </div>
+    </main>
+    <footer id="command">
+        <h2>Befehle</h2>
+        <ul>
+            <li>git init
+                <ul>
+                    <li>initialisiert ein lokales git repository</li>
+                </ul>
+            </li>
+            <li>git add .
+                <ul>
+                    <li>gibt an was alles in den commit rein soll ( . gibt an das alles in den commit sol)</li>
+                </ul>
+            </li>
+            <li>git commit -m “message”
+                <ul>
+                    <li>hinterlegt einen message/commit ( man kann auch sagen erlegt eine version an)</li>
+                </ul>
+            </li>
+            <li>git push
+                <ul>
+                    <li>schickt das lokale repository in das github repository</li>
+                </ul>
+            </li>
+            <li>git log
+                <ul>
+                    <li>zeigt alle die bis dato erstellten commits ausführlich an</li>
+                </ul>
+            </li>
+            <li>git log --oneline
+                <ul>
+                    <li>zeigt alle die bis dato erstellten commits in kurzform an</li>
+                </ul>
+            </li>
+            <li>git branch “name”
+                <ul>
+                    <li>Erstellt einen neuen Branch</li>
+                </ul>
+            </li>
+            <li>git branch -a
+                <ul>
+                    <li>Zeigt alle erstellten Branches an</li>
+                </ul>
+            </li>
+            <li>git branch -d “name”
+                <ul>
+                    <li>Löscht den ausgewählten Branch</li>
+                </ul>
+            </li>
+            <li>git checkout
+                <ul>
+                    <li>Wechseln zwischen den Branches</li>
+                </ul>
+            </li>
+            <li>git pull
+                <ul>
+                    <li>Lädt die aktuelle Version des Repository von GitHub runter </li>
+                </ul>
+            </li>
+            <li>git clone
+                <ul>
+                    <li>Kopiert ein fremdes Projekt von Github </li>
+                </ul>
+            </li>
+            <li>git merge
+                <ul>
+                    <li>Ist dafür da um zwei branches zusammenzuführen </li>
+                </ul>
+            </li>
+        </ul>
+        <section id="shorts">
+            <h2>Abkürzungen</h2>
+            <p>A - Added (This is a new file that has been added to the repository)
+            </p>
+            <p>M - Modified (An existing file has been changed)
+            </p>
+            <p>D - Deleted (a file has been deleted)
+            </p>
+            <p>U - Untracked (The file is new or has been changed but has not been added to the repository yet)
+            </p>
+            <p>C - Conflict (There is a conflict in the file)
+            </p>
+            <p>R - Renamed (The file has been renamed)
+            </p>
+            <p>S - Submodule (In repository exists another subrepository)
+            </p>
+        </section>
+    </footer>
+    <section id="terminal">
+        <h1>Terminal</h1>
+        <h1>Befehle</h1>
+        <div id="touch">
+            <h2>Touch Befehl</h2>
+            <p>Der Befehl "touch" erstellt eine Datei wie im Bild zu sehen. In diesem Beispiel wurde eine index.html erstellt.</p>
+        </div>
+        <div id="mkdir">
+            <h2>MKDIR Befehl</h2>
+            <p>Der Befehl "mkdir" erstellt einen neuen Ordner. In diesem Beispiel wurde eine ganze Ordnerstruktur erstellt.</p>
+        </div>
+        <div id="mkdir2">
+            <h2>Ordnerstruktur</h2>
+            <p>Ein Beispiel für eine Ordnerstruktur die mit dem Befehl "mkdir" erstellt worden ist.</p>
+            <img src="assets/img/mkdir3.png" alt="">
+        </div>
+        <div id="ls">
+            <h2>LS Befehl</h2>
+            <p>ls 'list directory' : Zeigt uns alle Dateien/Ordner im verzeichnis an</p>
+        </div>
+        <div id="ls-l">
+            <h2>LS-L Befehl</h2>
+            <p>ls 'list directory' : Zeigt uns alle Dateien/Ordner im Verzeichnis an, nur ausführlicher.</p>
+        </div>
+        <div id="lsa">
+            <h2>LS-A Befehl</h2>
+            <p>ls -a 'list directory' : Zeigt uns alle Dateien, auch die versteckten.</p>
+        </div>
+        <div id="cd">
+            <h2>CD Befehl</h2>
+            <p>cd 'change directory' : Mit cd können wir in unserem Verzeichnis navigieren</p>
+        </div>
+        <div id="cat">
+            <h2>Cat Befehl</h2>
+            <p>cat 'concatenate' : Kann ich mir den Inhalt von Dateien im Terminal anzeigen lassen.</p>
+        </div>
+        <div id="mv">
+            <h2>MV Befehl</h2>
+            <p>mv 'move/rename' : Verschiebt Dateien und kann Sie umbenennen. In diesem Beispiel wurde die about.html aus dem root ordner in den Assets Ordner verschoben</p>
+        </div>
+        <div id="pwd">
+            <h2>PWD Befehl</h2>
+            <p>pwd 'print working directory' : Zeigt uns von Root Verzeichnis aus wo wir uns befinden</p>
+        </div>
+    </section>
+</body>
+</html>

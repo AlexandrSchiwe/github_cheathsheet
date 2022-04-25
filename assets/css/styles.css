@@ -1,0 +1,443 @@
+/* ===================================
+                Fonts
+====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;400;500&display=swap');
+
+/* 
+
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* ===================================
+            General
+====================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("../img/website-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* ================================================================ 
+                        HEADER
+================================================================ */
+
+header nav {
+    margin-left: 65vw;
+    margin-top: 25px;
+}
+
+header ul li {
+    display: inline;
+    margin: 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    font-size: 10rem;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#headline {
+    margin: 20vh 0;
+}
+
+/* ================================================================ 
+                        MAIN
+================================================================ */
+
+main h2 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+main div:first-of-type p {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+main > p {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+main div:nth-of-type(2) {
+    height: 20vh;
+    width: 20vw;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+main div:nth-of-type(2) p {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+main div:nth-of-type(3) {
+    height: 20vh;
+    width: 20vw;
+    display: inline-block;
+    margin-left: 30vw;
+    margin-top: 5vh;
+}
+
+main div:nth-of-type(3) p {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+main div:nth-of-type(4) img {
+    width: 70%;
+    margin-left: 4.5vw;
+    margin-top: 50px;
+}
+
+main div:nth-of-type(4) p {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color: white;
+    font-size: 2rem;
+}
+
+footer > h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6rem;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+footer section {
+    color: white;
+}
+
+footer section h2 {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+footer section p {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color: white;
+    font-size: 2rem;
+}
+
+/* ================================================================ 
+                        Terminal
+================================================================ */
+#terminal {
+    margin: 20vh 0 0 0;
+}
+
+#terminal h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 10rem;
+}
+
+#touch {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/touch.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#touch h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#touch p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#mkdir {
+    margin-top: 15vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/mkdir.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#mkdir h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#mkdir p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#mkdir2 {
+    margin-top: 15vh;
+    background: url("../img/mkdir2.png");
+    background-size: 20%;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin-left: 3%;
+}
+
+#mkdir2 h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 23%;
+}
+
+#mkdir2 p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 30%;
+    padding: 0 30% 0 0;
+    text-align: center;
+}
+
+#mkdir2 img {
+    position: absolute;
+    width: 40%;
+    right: 5%;
+    top: 605%;
+}
+
+#ls {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/ls.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#ls h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#ls p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#ls-l {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/lsl.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#ls-l h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#ls-l p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#lsa {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/lsa.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#lsa h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#lsa p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#cd {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/cd.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#cd h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#cd p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#cat {
+    margin-top: 10vh;
+    height: 30vh;
+    width: 95%;
+    background: url("../img/cat.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#cat h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#cat p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#mv {
+    margin-top: 10vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/mv.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#mv h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#mv p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
+
+#pwd {
+    margin-top: 25vh;
+    height: 20vh;
+    width: 95%;
+    background: url("../img/pwd.png");
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#pwd h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+#pwd p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2% 3%;
+    padding: 0 70% 0 0;
+}
